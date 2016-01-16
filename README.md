@@ -1,5 +1,5 @@
 
-# rRootag #
+# rRootage #
 
 for Linux (OpenGL required)
 ver. 0.23
@@ -41,7 +41,7 @@ Your ship becomes slow while holding the laser key.
 
 - Special → Bomb
 
-The bomb wipes enemyies bullets.
+The bomb wipes enemies bullets.
 The number of bombs are displayed at the right-down corner.
 
 ### PSY mode ###
@@ -94,7 +94,8 @@ These options are available:
 
 ## Comments ##
 
-If you have any comments, please mail to cs8k-cyu@asahi-net.or.jp
+If you have any comments, please mail to taranlynn0@gmail.com, or
+cs8k-cyu@asahi-net.or.jp is you wish to contact the original author.
 
 
 ## Webpage ##
@@ -102,7 +103,7 @@ If you have any comments, please mail to cs8k-cyu@asahi-net.or.jp
 rRootage webpage: [](http://www.asahi-net.or.jp/~cs8k-cyu/windows/rr_e.html)
 
 
-## Acknowledgement ##
+## Acknowledgments ##
 
 libBulletML is used to parse BulletML files.
  [libBulletML](http://shinh.skr.jp/libbulletml/index_en.html)
