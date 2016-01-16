@@ -11,7 +11,14 @@ Shootem up game, 'rRootage'.
 
 ## How to install. ##
 
-Enter the following into the command line.
+This project depends on SDL 1.2, SDL mixer 1.2, and [libBulletML](http://shinh.skr.jp/libbulletml/index_en.html).
+On debian based systems these can be installed with the following
+
+```
+> sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev libbulletml-dev
+```
+
+Enter the following into the command line to compile rRootage.
 
 ```
 > cd src
