@@ -13,12 +13,12 @@
 #define absN(a) ((a) < 0 ? - (a) : (a))
 
 typedef struct {
-  int x, y;
+    int x, y;
 } Vector;
 #define DEF_VECTOR
 #endif
 
-float vctInnerProduct(Vector *v1, Vector *v2); 
+float vctInnerProduct(Vector *v1, Vector *v2);
 Vector vctGetElement(Vector *v1, Vector *v2);
 void vctAdd(Vector *v1, Vector *v2);
 void vctSub(Vector *v1, Vector *v2);

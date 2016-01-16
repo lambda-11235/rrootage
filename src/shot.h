@@ -12,10 +12,10 @@
 #include "vector.h"
 
 typedef struct {
-  float x, y, mx, my;
-  float d;
-  int cnt, color;
-  float width, height;
+    float x, y, mx, my;
+    float d;
+    int cnt, color;
+    float width, height;
 } Shot;
 
 #define SHOT_MAX 64

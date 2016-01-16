@@ -16,18 +16,18 @@
 #define FIELD_WIDTH_8 (FIELD_WIDTH<<8)
 #define FIELD_HEIGHT_8 (FIELD_HEIGHT<<8)
 
-#define FIELD_SCREEN_RATIO 10000.0f 
+#define FIELD_SCREEN_RATIO 10000.0f
 
 typedef struct {
-  Vector pos, bombPos;
-  int cnt, laserCnt;
-  int speed;
-  int invCnt;
-  int bombCnt, bombWdt;
-  int grzCnt, grzInvCnt, rollingCnt, grzWdt, grzf;
-  float d;
-  int color, colorChgCnt, fldWdt, absEng;
-  int rfCnt, rfMtr, rfMtrDec, rfWdt, reflects;
+    Vector pos, bombPos;
+    int cnt, laserCnt;
+    int speed;
+    int invCnt;
+    int bombCnt, bombWdt;
+    int grzCnt, grzInvCnt, rollingCnt, grzWdt, grzf;
+    float d;
+    int color, colorChgCnt, fldWdt, absEng;
+    int rfCnt, rfMtr, rfMtrDec, rfWdt, reflects;
 } Ship;
 
 extern Ship ship;

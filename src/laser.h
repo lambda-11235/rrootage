@@ -12,9 +12,9 @@
 #include "vector.h"
 
 typedef struct {
-  int y;
-  int color;
-  int cnt;
+    int y;
+    int color;
+    int cnt;
 } Laser;
 
 void initLasers();

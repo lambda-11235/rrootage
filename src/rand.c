@@ -15,9 +15,9 @@ extern void init_genrand(unsigned long s);
 extern unsigned long genrand_int32();
 
 void setSeed(unsigned long s) {
-  init_genrand(s);
+    init_genrand(s);
 }
 
 unsigned long nextRand() {
-  return genrand_int32();
+    return genrand_int32();
 }

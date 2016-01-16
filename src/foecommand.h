@@ -22,31 +22,29 @@
 
 class FoeCommand : public BulletMLRunner {
  public:
-  FoeCommand(BulletMLParser* parser, struct foe* f);
-  FoeCommand(BulletMLState* state, struct foe* f);
+    FoeCommand(BulletMLParser* parser, struct foe* f);
+    FoeCommand(BulletMLState* state, struct foe* f);
 
-  virtual ~FoeCommand();
+    virtual ~FoeCommand();
 
-  virtual double getBulletDirection();
-  virtual double getAimDirection();
-  virtual double getBulletSpeed();
-  virtual double getDefaultSpeed();
-  virtual double getRank();
-  virtual void createSimpleBullet(double direction, double speed);
-  virtual void createBullet(BulletMLState* state, double direction, double speed);
-  virtual int getTurn();
-  virtual void doVanish();
-  
-  virtual void doChangeDirection(double d);
-  virtual void doChangeSpeed(double s);
-  virtual void doAccelX(double ax);
-  virtual void doAccelY(double ay);
-  virtual double getBulletSpeedX();
-  virtual double getBulletSpeedY();
-  
+    virtual double getBulletDirection();
+    virtual double getAimDirection();
+    virtual double getBulletSpeed();
+    virtual double getDefaultSpeed();
+    virtual double getRank();
+    virtual void createSimpleBullet(double direction, double speed);
+    virtual void createBullet(BulletMLState* state, double direction, double speed);
+    virtual int getTurn();
+    virtual void doVanish();
+
+    virtual void doChangeDirection(double d);
+    virtual void doChangeSpeed(double s);
+    virtual void doAccelX(double ax);
+    virtual void doAccelY(double ay);
+    virtual double getBulletSpeedX();
+    virtual double getBulletSpeedY();
+
  private:
-  struct foe *foe;
+    struct foe *foe;
 };
 #endif
-
-

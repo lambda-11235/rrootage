@@ -17,13 +17,13 @@ MORE_CFLAGS = -O3 -Wall
 CFLAGS   = $(DEFAULT_CFLAGS) $(MORE_CFLAGS)
 CPPFLAGS = $(DEFAULT_CFLAGS) $(MORE_CFLAGS) -I./bulletml/
 
-OBJS =	$(NAME).$(O) \
+OBJS = $(NAME).$(O) \
 	foe.$(O) foecommand.$(O) barragemanager.$(O) boss.$(O) ship.$(O) laser.$(O) \
 	frag.$(O) background.$(O) letterrender.$(O) shot.$(O) \
 	screen.$(O) vector.$(O) degutil.$(O) rand.$(O) mt19937int.$(O) \
 	soundmanager.$(O) attractmanager.$(O)
 
-$(PROG): $(OBJS) 
+$(PROG): $(OBJS)
 	$(CC) $(CFLAGS) -o $(PROG) $(OBJS) $(LDFLAGS)
 
 clean:
