@@ -1,7 +1,7 @@
 
 # rRootag #
 
-for Linus (OpenGL required)
+for Linux (OpenGL required)
 ver. 0.23
 (C) Kenta Cho
 
