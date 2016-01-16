@@ -100,7 +100,7 @@ cs8k-cyu@asahi-net.or.jp is you wish to contact the original author.
 
 ## Webpage ##
 
-rRootage webpage: [](http://www.asahi-net.or.jp/~cs8k-cyu/windows/rr_e.html)
+rRootage webpage: http://www.asahi-net.or.jp/~cs8k-cyu/windows/rr_e.html
 
 
 ## Acknowledgments ##
